@@ -1,0 +1,50 @@
+*{
+    margin-top: 0;
+    padding: 0;
+}
+body{
+    background-image: url('https://media.istockphoto.com/id/1290979916/photo/vintage-old-pocket-watch-on-snowy-background.jpg?s=612x612&w=0&k=20&c=snPZ4_rf2li3fbPwORObCZLa44gMTsS4ZyNINYfaymM=');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container{
+    background-color:rgba(104, 243, 208, 0.04);
+    /* margin:50px 0 0 40px; */
+    margin: auto;
+    margin-top: 50px;
+    border: 0.5px solid black;
+    border-radius: 50%;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content:first baseline;
+    flex-direction: column;
+    box-shadow:0 5px 30px 0 blue;
+}
+.container h1{
+    padding-left: 60px;
+    margin-top: 70px;
+    text-align: center;
+    text-decoration: double;
+}
+.clock{
+    align-self: center;
+}
+.clock span{
+    font-size:40px;
+}
+.container:hover{
+    background-color:rgba(142, 206, 215, 0.8);
+}
+a{
+    position:absolute;
+    padding-left: 48%;
+    bottom:250px;
+}
+a input[type='button']{
+    width: 100px;
+    height: 50px;
+}
+input[type='button']:hover{
+    background-color:blueviolet;
+}

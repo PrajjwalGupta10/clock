@@ -1,0 +1,43 @@
+#clockContainer{  
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw; 
+    background: url('https://www.shutterstock.com/shutterstock/photos/1882858732/display_1500/stock-photo-blue-clock-without-hands-on-a-white-background-1882858732.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.8%;
+    height: 12%;
+    top: 21%;
+    left: 48.85%;
+    opacity: 0.8;  
+    background-color:red;
+}
+#minute{
+    width: 1.6%;
+    height: 15%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;  
+    background-color:blue;
+
+}
+#second{
+    width: 1%;
+    height: 20%;
+    top: 13%;
+    left: 49.25%;
+    opacity: 0.8; 
+    background-color:black;
+
+    
+}
